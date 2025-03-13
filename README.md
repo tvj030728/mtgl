@@ -1,24 +1,8 @@
-# Martingale Betting Simulator | 마틴게일 베팅 시뮬레이터 | マーチンゲールベッティングシミュレーター | 马丁格尔投注模拟器
+# Martingale Betting Simulator
 
-## English
+마틴게일 베팅 시뮬레이터 | マーチンゲールベッティングシミュレーター | 马丁格尔投注模拟器
 
-A web-based simulator that demonstrates the Martingale betting strategy. This simulator allows users to experience and understand the risks and mechanics of the Martingale system in a safe, money-free environment.
-
-### Features
-
-- Real-time balance tracking
-- Win/Loss counter
-- Maximum balance tracking
-- Automated betting option
-- Detailed betting history
-- Responsive design
-
-### How to Use
-
-1. Set your initial bet amount
-2. Choose between Red or Black
-3. Click to bet manually or use auto-betting
-4. Monitor your results in real-time
+[시뮬레이터 바로가기 (Try out!)](https://mtgl.git.ivlis.kr/)
 
 ## 한국어
 
@@ -39,6 +23,26 @@ A web-based simulator that demonstrates the Martingale betting strategy. This si
 2. 레드 또는 블랙 선택
 3. 수동 베팅 또는 자동 베팅 사용
 4. 실시간으로 결과 모니터링
+
+## English
+
+A web-based simulator that demonstrates the Martingale betting strategy. This simulator allows users to experience and understand the risks and mechanics of the Martingale system in a safe, money-free environment.
+
+### Features
+
+- Real-time balance tracking
+- Win/Loss counter
+- Maximum balance tracking
+- Automated betting option
+- Detailed betting history
+- Responsive design
+
+### How to Use
+
+1. Set your initial bet amount
+2. Choose between Red or Black
+3. Click to bet manually or use auto-betting
+4. Monitor your results in real-time
 
 ## 日本語
 

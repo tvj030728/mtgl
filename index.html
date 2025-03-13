@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마틴게일 시뮬레이터</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>마틴게일 베팅 시뮬레이터</h1>
+      <div class="stats">
+        <div class="stat-item">
+          <span>보유금액:</span>
+          <span id="balance">100000</span>원
+        </div>
+        <div class="stat-item">
+          <span>승리:</span>
+          <span id="wins">0</span>회
+        </div>
+        <div class="stat-item">
+          <span>패배:</span>
+          <span id="losses">0</span>회
+        </div>
+        <div class="stat-item">
+          <span>최대 보유금:</span>
+          <span id="maxBalance">100000</span>원
+        </div>
+      </div>
+
+      <div class="betting-area">
+        <input
+          type="number"
+          id="betAmount"
+          placeholder="베팅 금액"
+          value="1000"
+        />
+        <div class="bet-buttons">
+          <button id="betRed" class="bet-btn red">레드 (x2)</button>
+          <button id="betBlack" class="bet-btn black">블랙 (x2)</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="autoPlay">자동 베팅</button>
+        <button id="reset">리셋</button>
+      </div>
+
+      <div class="history" id="history">
+        <h3>베팅 기록</h3>
+        <div class="history-list" id="historyList"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
